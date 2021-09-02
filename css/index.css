@@ -1,0 +1,75 @@
+/* BODY CSS */
+.intro{
+	display:flex;
+	justify-content: space-around;
+	padding:96px 16px;
+	background-color:var(--bg-color);
+}
+.intro img{
+	width:50%;
+}
+.intro .slogan{
+	margin:auto 0;
+	text-align: center;
+	font-size:3em;
+	color:var(--color);
+}
+
+.tujuan{
+	text-align:center;
+	background-color:var(--bg-color);
+	padding-bottom:10em;
+}
+.tujuan .header{
+	font-size:2em;
+	color:var(--color);
+	padding-bottom:2rem;
+}
+.tujuan-list{
+	display:flex;
+}
+.tujuan .isi{
+	padding:16px;
+	margin:8px auto 8px auto;
+	font-size:1.5em;
+	color:var(--color);
+	background-color:var(--sectioncolor);
+}
+
+.outro{
+	text-align:center;
+	background-color:var(--bg-color);
+	padding-bottom:10em;
+}
+.outro .mulai{
+	padding:16px;
+	color:#fff;
+	font-size:1em;
+	background-color:var(--buttoncolor);
+}
+
+@media screen and (max-width: 768px) {
+	/* BODY CSS */
+	.intro{
+		flex-direction: column;
+	}
+	.intro img{
+		margin:0 auto;
+		width:75%;
+	}
+	.intro .slogan{
+		font-size:2em;
+	}
+
+	.tujuan-list{
+		flex-direction:column;
+	}
+	.tujuan .isi{
+		font-size:1em;
+	}
+
+	.outro .mulai{
+		font-size:1.2em;
+	}
+	/* BODY CSS */
+}
